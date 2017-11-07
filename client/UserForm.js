@@ -14,7 +14,7 @@ class UserForm extends Component {
     }
 
     handleChange(e) {
-        this.setState({ name: e.target.vakue });
+        this.setState({ name: e.target.value });
     }
 
     render() {
